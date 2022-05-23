@@ -24,6 +24,8 @@ DB_USERNAME=
 <br>
 DB_PASSWORD=
 <br>
+各項目に該当する値を入力
+<br>
 ターミナルにて
 <br>
 php artisan migrate
