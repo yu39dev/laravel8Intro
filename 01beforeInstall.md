@@ -2,9 +2,11 @@ laravelのインストールのためにmacにphpとcomposerがインストー�
 <br>
 そのためターミナルにてインストールされているか確認
 <br>
+<br>
 php -v
 <br>
 composer -v
+<br>
 <br>
 二つのコマンドを実行し、バージョンが表示されればlaravelのインストールが実行できる
 <br>
