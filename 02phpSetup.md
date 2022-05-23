@@ -10,7 +10,9 @@ binフォルダ内ののphpと書いてあるunix実行ファイルと書いて�
 <br>
 隠しファイルのzprofileを開き、（ない場合は作成）
 <br>
-export PATH=コピーしたPATH/bin:$PATHで通せる
+export PATH=コピーしたPATH/bin:$PATH
+<br>
+で通せる
 <br>
 例）export PATH=/Applications/MAMP/bin/php/php7.3.29/bin:$PATH
 <br>
