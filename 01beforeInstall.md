@@ -27,4 +27,18 @@ binフォルダ内ののphpと書いてあるunix実行ファイルと書いて�
 <br>
 例）export PATH=/Applications/MAMP/bin/php/php7.3.29/bin:$PATH
 <br>
+ターミナルを再起動し、php -vを実行。バージョン名が表示されれば完了
 <br>
+<br>
+composerを使うにはphpが必須なのでphpがインストールされていることを確認する。
+<br>
+composerのインストールはいくつかあるが今回はhomebrewを用いてインストールする
+<br>
+<br>
+homebrewのインストール
+<br>
+homebrewの公式ページからスクリプトをコピー。ターミナルに貼り付け、インストール開始。
+<br>
+pcによってはパスが通ってない場合があり、インストールの最後にwarningかエラーを吐く場合がある。落ち着いてnext　stepを参照し、パスを通す
+<br>
+brew -vでバージョンが表示されたら完了
