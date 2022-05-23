@@ -32,6 +32,8 @@ export PATH=コピーしたPATH/bin:$PATHで通せる
 ターミナルを再起動し、php -vを実行。バージョン名が表示されれば完了
 <br>
 <br>
+composer
+<br>
 composerを使うにはphpが必須なのでphpがインストールされていることを確認する。
 <br>
 composerのインストールはいくつかあるが今回はhomebrewを用いてインストールする
@@ -54,6 +56,4 @@ brew install composer
 <br>
 composer -v
 <br>
-を
-<br>
-実行し、バージョンが表示されれば完了
+を実行し、バージョンが表示されれば完了
