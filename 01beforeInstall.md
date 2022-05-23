@@ -23,7 +23,9 @@ php
 <br>
 binフォルダ内ののphpと書いてあるunix実行ファイルと書いてあるところまでPATHをコピー。
 <br>
-隠しファイルのzprofileを開き、（ない場合は作成。）export PATH=コピーしたPATH/bin:$PATHで通せる
+隠しファイルのzprofileを開き、（ない場合は作成）
+<br>
+export PATH=コピーしたPATH/bin:$PATHで通せる
 <br>
 例）export PATH=/Applications/MAMP/bin/php/php7.3.29/bin:$PATH
 <br>
@@ -42,3 +44,16 @@ homebrewの公式ページからスクリプトをコピー。ターミナルに
 pcによってはパスが通ってない場合があり、インストールの最後にwarningかエラーを吐く場合がある。落ち着いてnext　stepを参照し、パスを通す
 <br>
 brew -vでバージョンが表示されたら完了
+<br>
+<br>
+homebrewがインストールされていることを確認したら
+<br>
+brew install composer
+<br>
+を実行し、composerをインストール
+<br>
+composer -v
+<br>
+を
+<br>
+実行し、バージョンが表示されれば完了
