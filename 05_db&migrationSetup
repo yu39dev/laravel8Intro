@@ -1,0 +1,37 @@
+laravelのインストールが完了したら、dbとマイグレーションの設定を行う
+<br>
+mampを起動し、phpmyadminを開く。
+<br>
+任意の名前でdbを新規作成
+<br>
+作成したdbの権限を設定
+<br>
+権限から「新規作成ーユーザアカウントを追加する」をクリックし、権限を追加
+<br>
+ユーザー名→任意
+<br>
+ホスト→localhost
+<br>
+パスワード→任意
+<br>
+画面下のグローバル権限を全てチェックにして実行。権限が追加されたのを確認。
+<br>
+DB_HOST=
+<br>
+DB_DATABASE=
+<br>
+DB_USERNAME=
+<br>
+DB_PASSWORD=
+<br>
+ターミナルにて
+<br>
+php artisan migrate
+<br>
+を実行
+<br>
+Migration table created successfully.
+<br>
+と表示されたら再びphpmyadminへ。
+<br>
+カラムが追加されてたら完了
