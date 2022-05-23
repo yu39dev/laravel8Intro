@@ -1,5 +1,5 @@
-laravelのインストールのためにmacにphpとcomposerがインストールされている必要がある。　　
-　　
+laravelのインストールのためにmacにphpとcomposerがインストールされている必要がある
+<br>
 そのためターミナルにてインストールされているか確認　　
 　　
 php -v　　
