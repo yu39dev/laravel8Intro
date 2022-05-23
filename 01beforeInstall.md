@@ -12,6 +12,7 @@ composer -v
 <br>
 command not found が出た場合はインストールしてないか、PATHを通してない場合がある。以下で確認。
 <br>
+<br>
 php
 <br>
 当方ではphpの学習の際、mampを使用したので、mampに標準でインストールされているphpにPATHを通すことにする
